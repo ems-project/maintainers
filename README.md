@@ -1,6 +1,6 @@
 # Maintainer/Contributor guidelines for EMS-project
 
-This is repository contains information and configurations for the ems-project repositories
+This repository contains information and configurations for the ems-project repositories
 
 - [Coding Standards](../master/doc/coding_standards.md)
 
@@ -16,4 +16,3 @@ This is repository contains information and configurations for the ems-project r
 ## Information
 
 - [Elasticms.eu](https://www.elasticms.eu/)
-
