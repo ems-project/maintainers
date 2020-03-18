@@ -6,6 +6,8 @@ Branches, commits, and GitHub issues MUST respect conventions as described in th
 UNLESS specified otherwise in the [Branch types](#branch-types) definition, each pull request:
 * MUST target the `develop` branch
 * MUST use the PR/Commit/Issue Template
+* MUST pass installed Travis checks
+* MUST be approved by AT LEAST 1 reviewer
 
 ## Templates
 ### PR Template
@@ -29,7 +31,7 @@ A branch MUST be named `<type>/<short-description>` where:
 ### Branch types <a name="branch-types"/>
 
 #### Feature Branch
-A `feat/new-feature-description` branch is used to add new functionality to the project.
+A `feat/new-feature-description` branch is used to add new functionality to the project. And MUST be approved by AT LEAST 2 reviewers.
 
 #### Bugfix Branch
 A `bug/description-of-the-fix` branch is used to patch existing features that are broken.
