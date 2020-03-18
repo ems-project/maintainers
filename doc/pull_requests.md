@@ -4,7 +4,6 @@ EMS-project uses the [GitFlow](https://www.atlassian.com/git/tutorials/comparing
 Branches, commits, and GitHub issues MUST respect conventions as described in this document.
 
 UNLESS specified otherwise in the [Branch types](#branch-types) definition, each pull request:
-* MUST implement EXACTLY one GitHub issue
 * MUST target the `develop` branch
 * MUST use the PR/Commit/Issue Template
 
@@ -40,14 +39,14 @@ A bugfix branch MAY contain a new feature if it's tightly coupled to the bugfix 
 #### Hotfix Branch
 A `hot/description-of-the-fix` branch is used to patch a broken feature currently in production.
 
-A hotfix branch MUST be the smallest possible implementation to fix the issue in production. And MAY implement a GitHub Issue.
+A hotfix branch MUST be the smallest possible implementation to fix the issue in production.
 
 The pull request MUST target the `master` branch.
 
 #### Maintain Branch
 A `maintain/description-of-configuration-change` branch is used to change configurations not related to the project in production. For example: Travis, Phpunit, ...
 
-A maintain branch May implement a GitHub Issue. But will mostly be used to implement requirements defined by this maintainer repository.
+A maintain branch MUST be used to implement requirements defined by this maintainer repository.
 
 #### Dependency Branch
 A `dep/description-of-dependency-or-deprecated-cleaning` branch is used to clean dependencies and deprecations in the project.
