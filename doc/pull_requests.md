@@ -33,19 +33,19 @@ A branch MUST be named `<type>/<short-description>` where:
 A `feat/new-feature-description` branch is used to add new functionality to the project.
 
 #### Bugfix Branch
-A `bug/description-of-the-fix` branch is used patch existing features that are broken.
+A `bug/description-of-the-fix` branch is used to patch existing features that are broken.
 
 A bugfix branch MAY contain a new feature if it's tightly coupled to the bugfix itself.
 
 #### Hotfix Branch
 A `hot/description-of-the-fix` branch is used to patch a broken feature currently in production.
 
-A hotfix branch must be the smallest possible implementation to fix the issue in production. And MAY implement a GitHub Issue.
+A hotfix branch MUST be the smallest possible implementation to fix the issue in production. And MAY implement a GitHub Issue.
 
 The pull request MUST target the `master` branch.
 
 #### Maintain Branch
-A `maintain/description-of-configuration-change` branch is used to change configurations not related to the project in production. For example: travis, phpunit, ...
+A `maintain/description-of-configuration-change` branch is used to change configurations not related to the project in production. For example: Travis, Phpunit, ...
 
 A maintain branch May implement a GitHub Issue. But will mostly be used to implement requirements defined by this maintainer repository.
 
