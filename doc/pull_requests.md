@@ -1,10 +1,10 @@
 # Pull Requests
 EMS-project uses the [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) strategy to incorporate code changes.
 
-Branches, commits, and Github issues MUST respect conventions as described in this document.
+Branches, commits, and GitHub issues MUST respect conventions as described in this document.
 
 UNLESS specified otherwise in the [Branch types](#branch-types) definition, each pull request:
-* MUST implement EXACTLY one Github issue
+* MUST implement EXACTLY one GitHub issue
 * MUST target the `develop` branch
 * MUST use the PR/Commit/Issue Template
 
@@ -47,7 +47,7 @@ The pull request MUST target the `master` branch.
 #### Maintain Branch
 A `maintain/description-of-configuration-change` branch is used to change configurations not related to the project in production. For example: travis, phpunit, ...
 
-A maintain branch May implement a Github Issue. But will mostly be used to implement requirements defined by this maintainer repository.
+A maintain branch May implement a GitHub Issue. But will mostly be used to implement requirements defined by this maintainer repository.
 
 #### Dependency Branch
 A `dep/description-of-dependency-or-deprecated-cleaning` branch is used to clean dependencies and deprecations in the project.
