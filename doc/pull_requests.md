@@ -33,14 +33,20 @@ A branch MUST be named `<type>/<short-description>` where:
 
 #### Feature Branch
 A `feat/new-feature-description` branch is used to add new functionality to the project. And MUST be approved by AT LEAST 2 reviewers.
+* Origin: `develop`
+* Merge into: `develop`
 
 #### Bugfix Branch
 A `bug/description-of-the-fix` branch is used to patch existing features that are broken.
+* Origin: `develop`
+* Merge into: `develop`
 
 A bugfix branch MAY contain a new feature if it's tightly coupled to the bugfix itself.
 
 #### Hotfix Branch
 A `hot/description-of-the-fix` branch is used to patch a broken feature currently in production.
+* Origin: `master`
+* Merge into: `master` & `develop`
 
 A hotfix branch MUST be the smallest possible implementation to fix the issue in production.
 
@@ -48,8 +54,12 @@ The pull request MUST target the `master` branch.
 
 #### Maintain Branch
 A `maintain/description-of-configuration-change` branch is used to change configurations not related to the project in production. For example: Travis, Phpunit, ...
+* Origin: `develop`
+* Merge into: `develop`
 
 A maintain branch MUST be used to implement requirements defined by this maintainer repository.
 
 #### Dependency Branch
 A `dep/description-of-dependency-or-deprecated-cleaning` branch is used to clean dependencies and deprecations in the project.
+* Origin: `develop`
+* Merge into: `develop`
