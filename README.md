@@ -3,6 +3,7 @@
 This repository contains information and configurations for the ems-project repositories
 
 - [Coding Standards](../master/doc/coding_standards.md)
+- [Pull Requests](../master/doc/pull_requests.md)
 
 ## EMS-projects
 
