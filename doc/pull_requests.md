@@ -10,7 +10,8 @@ UNLESS specified otherwise in the [Branch types](#branch-types) definition, each
 * MUST be approved by AT LEAST 1 reviewer
 
 ## Templates
-### PR Template
+### Pull Request Template
+The template [pull_request_template.md](../master/templates/.github/pull_request_template.md) MUST be installed on EMS-project bundles. The temlate MUST be used when filing a pull request.
 
 ### Commit Template
 
