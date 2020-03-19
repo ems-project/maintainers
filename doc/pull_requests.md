@@ -14,6 +14,10 @@ UNLESS specified otherwise in the [Branch types](#branch-types) definition, each
 The template [pull_request_template.md](../master/templates/.github/pull_request_template.md) MUST be installed on EMS-project bundles. The temlate MUST be used when filing a pull request.
 
 ### Commit Template
+The template [commit_template.txt](../master/templates/.github/git_commit_template.txt) MUST be used on the main commits of a branch. Commits pushed after review MUST be squashed/rebased into one of the main commits before merging the PR.
+
+To install the template locally run:
+`git config --global commit.template <path>/.git_commit_template.txt`
 
 ### Issue Template
 
