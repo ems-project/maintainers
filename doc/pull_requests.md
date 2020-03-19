@@ -59,7 +59,7 @@ A `maintain/description-of-configuration-change` branch is used to change config
 
 A maintain branch MUST be used to implement requirements defined by this maintainer repository.
 
-#### Dependency Branch
-A `dep/description-of-dependency-or-deprecated-cleaning` branch is used to clean dependencies and deprecations in the project.
+#### Refactoring Branch
+A `ref/description-of-refactoring` branch is used to clean dependencies and deprecations in the project. And for refactoring existing code in general.
 * Origin: `develop`
 * Merge into: `develop`
