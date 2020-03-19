@@ -4,6 +4,9 @@
 #Wrap your line length at 80 characters (indication by the | at the end -->   |
 #For very small commits, this paragraph is not needed                         |
 
+#Document Backward Compatibility Breaks                                       |
+#BC-Break:
+
 #Document Side effects By uncommenting the following line                     |
 #Side effects:
 # *
