@@ -11,7 +11,7 @@ UNLESS specified otherwise in the [Branch types](#branch-types) definition, each
 
 ## Templates
 ### Pull Request Template
-The template [pull_request_template.md](../master/templates/.github/pull_request_template.md) MUST be installed on EMS-project bundles. The temlate MUST be used when filing a pull request.
+The template [pull_request_template.md](../master/templates/.github/pull_request_template.md) MUST be installed on EMS-project bundles. The template MUST be used when filing a pull request.
 
 ### Commit Template
 We are using [Conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) as our commit strategy, to simplify generation of release notes.
