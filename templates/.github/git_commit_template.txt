@@ -1,0 +1,11 @@
+#TITLE <type>[optional scope]: description      |
+
+#BODY (optional but encouraged)
+#Paragrahp to explain why the change is necessary, and how this is addressed. |
+#Wrap your line length at 80 characters (indication by the | at the end -->   |
+#For very small commits, this paragraph is not needed                         |
+
+#FOOTER (optional, but mandatory if anything applies)
+#BREAKING CHANGE: <description>
+#Reviewed-by:
+#Related Issues: #
