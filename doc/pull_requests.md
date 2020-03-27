@@ -31,7 +31,7 @@ A branch MUST be named `<type>/<short-description>` where:
    * `bug`
    * `hot`
    * `maintain`
-   * `dep`
+   * `ref`
 * `<short-description>` is a short description separated by `-` dashes explaining the reason of existance of the branch
 
 ### Branch types <a name="branch-types"/>
