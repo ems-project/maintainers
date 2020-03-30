@@ -11,11 +11,11 @@ UNLESS specified otherwise in the [Branch types](#branch-types) definition, each
 
 ## Templates
 ### Pull Request Template
-The template [pull_request_template.md](../master/templates/.github/pull_request_template.md) MUST be installed on EMS-project bundles. The template MUST be used when filing a pull request.
+The template [pull_request_template.md](../templates/.github/pull_request_template.md) MUST be installed on EMS-project bundles. The template MUST be used when filing a pull request.
 
 ### Commit Template
 We are using [Conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) as our commit strategy, to simplify generation of release notes.
-The template [commit_template.txt](../master/templates/.github/git_commit_template.txt) MUST be used for AT LEAST one of the commits in your branch.
+The template [commit_template.txt](../templates/.github/git_commit_template.txt) MUST be used for AT LEAST one of the commits in your branch.
 
 To install the template locally run:
 `git config --global commit.template <path>/.git_commit_template.txt`
