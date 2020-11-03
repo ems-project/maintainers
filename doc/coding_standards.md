@@ -21,7 +21,7 @@ However, it is forbidden to add new exceptions in the baseline with new Pull Req
 
 ## Exceptions
 
-I there is an unexpected exception, an exception that should never append, like an exception throw in order to solve a phpstan issue, throw a ```\RuntimeException```. We should avoid using ```\Exception``` in order to simplify logs analysis.
+When there is an unexpected exception, an exception that should never happened, like an exception throw in order to solve a phpstan issue, throw a ```\RuntimeException```. We should avoid using ```\Exception``` in order to simplify logs analysis.
 
 In other cases you should or use a specific exception, which can be handled upper in the stack. Or throw a [Symfony HTTP based exception](https://github.com/symfony/http-kernel/tree/5.x/Exception):
 
