@@ -8,7 +8,7 @@ composer phpcs
 This will run `php-cs-fixer fix` using the coding standards defined in [.php_cs.dist](../templates/.php_cs.dist).
 
 ## PHPCS / PHPCBF
-We are currently migrating from php-cs to php-cs-fixer, because both are doing the same job, but the latter is allowing us to configure the standards in PHP itself!
+We migrated from php-cs to php-cs-fixer, because both are doing the same job, but the latter is allowing us to configure the standards in PHP itself!
 
 ## Code quality
 
