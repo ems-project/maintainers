@@ -5,6 +5,7 @@ This repository contains information and configurations for the ems-project repo
 - [Coding Standards](../master/doc/coding_standards.md)
 - [Pull Requests](../master/doc/pull_requests.md)
 - [Creating a new EMS-project](../master/doc/new_project.md)
+- [Commit Quality](../master/doc/commit_quality.md)
 
 
 ## EMS-projects
